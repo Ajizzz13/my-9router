@@ -1,0 +1,7 @@
+{
+  "name": "my-9router",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npx 9router --host 0.0.0.0 --port $PORT"
+  }
+}
