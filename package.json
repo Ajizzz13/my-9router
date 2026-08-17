@@ -1,11 +1,16 @@
 {
-  "name": "9router-runner",
+  "name": "9router-service",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "start": "9router --tray --host 0.0.0.0 --port 10000"
+    "postinstall": "npm install -g opencode-ai",
+    "start": "9router --port $PORT --host 0.0.0.0"
   },
   "dependencies": {
     "9router": "latest",
     "opencode-ai": "latest"
+  },
+  "engines": {
+    "node": ">=20.0.0"
   }
 }
