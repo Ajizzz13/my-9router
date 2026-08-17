@@ -6,6 +6,6 @@
   },
   "dependencies": {
     "9router": "latest",
-    "opencode": "latest"
+    "opencode-ai": "latest"
   }
 }
