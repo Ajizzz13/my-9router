@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "postinstall": "npm install -g opencode-ai",
-    "start": "tail -f /dev/null | 9router --port $PORT --host 0.0.0.0"
+    "start": "9router --port $PORT --host 0.0.0.0 --tray"
   },
   "dependencies": {
     "9router": "latest",
